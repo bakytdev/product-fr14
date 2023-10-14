@@ -427,7 +427,7 @@ body {
     background: #fff;
     border-radius: 8px;
     border: 2px solid rgba(0, 0, 0, 0.37);
-    width: 348px!important;
+    width: 348px !important;
     height: 359px;
     transition: .5s;
 }
@@ -579,3 +579,218 @@ body {
 }
 
 /*price end*/
+
+
+/*say start*/
+#say {
+    padding: 150px 0;
+}
+
+.say h1 {
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.say p {
+    color: #22343D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 0 50px 0;
+    line-height: 28px;
+}
+
+.say-block {
+    width: 300px;
+    height: 236px;
+    border-radius: 5px;
+    border: 2px solid #DEDEDE;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding-left: 26px;
+    justify-content: center;
+}
+
+.say-block-starts ion-icon {
+    color: #f1cb03;
+    font-size: 23px;
+}
+
+.say-block h6 {
+    padding: 16px 0;
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 90%;
+}
+
+.say-block-title div h4 {
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.say-block-title div h5 {
+    color: #252B42;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.say-block-title {
+    display: flex;
+    align-items: center;
+}
+
+.say-block-title div {
+    padding-left: 14px;
+}
+
+.say-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.dark .say h1,
+.dark .say p {
+    color: white;
+}
+
+/*say end*/
+
+/*join start*/
+.join-block {
+    border-radius: 32px;
+    background: #02897A;
+    height: 345px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    width: 85%;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+}
+
+.join-block-text h1 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 151.4%;
+    width: 510px;
+    padding-bottom: 50px;
+}
+
+.join-block-text button {
+    color: #02897A;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 13px 35px;
+}
+
+/*join end*/
+
+/*footer start*/
+#footer {
+    padding: 150px 0 45px 0;
+}
+
+.footer-logo-icons a {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #02897A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ebfdfa;
+    margin-right: 16px;
+}
+
+.footer-logo-icons {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text h3 {
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.footer-text a {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-input h2 {
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 280px;
+}
+
+.footer-input input {
+    margin: 34px 0 21px 0;
+    width: 325px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    background: #FFF;
+    outline: none;
+    color: #02897A;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.footer-input button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: #02897A;
+    padding: 10px 25px;
+}
+
+.footer-input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer h1 {
+    text-align: center;
+    padding-top: 16px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*footer end*/

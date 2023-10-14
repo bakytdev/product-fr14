@@ -14,6 +14,7 @@ btn.addEventListener('click', () => {
 
 const swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
+    loop: true,
     spaceBetween: 10,
     pagination: {
         el: ".swiper-pagination",
@@ -33,7 +34,7 @@ const swiper = new Swiper(".mySwiper", {
             spaceBetween: 50,
         },
         1440: {
-            slidesPerView:3,
+            slidesPerView: 3,
             spaceBetween: 50,
         },
     },
