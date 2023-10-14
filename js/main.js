@@ -13,7 +13,6 @@ btn.addEventListener('click', () => {
 
 
 const swiper = new Swiper(".mySwiper", {
-    loop: true,
     slidesPerView: 1,
     spaceBetween: 10,
     pagination: {
@@ -21,20 +20,20 @@ const swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
     breakpoints: {
-        "@0.00": {
-            slidesPerView: 1,
-            spaceBetween: 10,
-        },
-        "@0.75": {
+        640: {
             slidesPerView: 1,
             spaceBetween: 20,
         },
-        "@1.00": {
-            slidesPerView: 2.5,
+        768: {
+            slidesPerView: 2,
             spaceBetween: 40,
         },
-        "@1.50": {
-            slidesPerView: 3,
+        1024: {
+            slidesPerView: 2.5,
+            spaceBetween: 50,
+        },
+        1440: {
+            slidesPerView:3,
             spaceBetween: 50,
         },
     },

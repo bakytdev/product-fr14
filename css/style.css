@@ -427,7 +427,7 @@ body {
     background: #fff;
     border-radius: 8px;
     border: 2px solid rgba(0, 0, 0, 0.37);
-    width: 348px;
+    width: 348px!important;
     height: 359px;
     transition: .5s;
 }
@@ -577,6 +577,5 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
 
 /*price end*/
