@@ -278,6 +278,185 @@ body {
 /*product end*/
 
 
+/*<!--management start*/
+#management {
+    padding: 169px 0 100px 0;
+}
+
+.man-general h2 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.man-general h1 {
+    padding: 8px 0 23px 0;
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.man-general p {
+    width: 486px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.man-general h3 {
+    padding: 30px 0 12px 0;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.management {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark h2,
+.dark h1,
+.dark p,
+.dark h3 {
+    color: #FFFFFF;
+}
+
+
+/*<!--management end*/
+
+
+/*support start*/
+#support {
+    padding: 150px 0;
+}
+
+.support {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.support-text h3 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dark .support h3,
+.dark .support h1,
+.dark .support p,
+.dark .price h1,
+.dark .price p,
+.dark .icon-general h6 {
+    color: white;
+}
+
+.support-text h1 {
+    color: #22343D;
+    font-size: 32px;
+    padding: 8px 0 23px 0;
+    font-weight: 700;
+}
+
+.support-text p {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+    padding-bottom: 15px;
+}
+
+.icon-general {
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+}
+
+.icon-general h6 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 365px;
+}
+
+.support-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-one {
+    background: #FF9900;
+}
+
+.icon-two {
+    background: #F03E3D;
+}
+
+.icon-three {
+    background: #4D8DFF;
+}
+
+/*support end*/
+
+/*for start*/
+#for {
+    padding: 150px 0;
+}
+
+.for {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.for-text h3 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.for-text h1 {
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 8px 0 23px 0;
+}
+
+.for-text p {
+    color: #22343D;
+    width: 486px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.for-text h4 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 30px 0 12px 0;
+}
+
+.dark .for-text h3,
+.dark .for-text h4,
+.dark .for-text h1,
+.dark .for-text p {
+    color: white;
+}
+
+/*for end*/
+
 /*user start*/
 #user {
     background: url("../img/bg-two.png") no-repeat top/cover;
@@ -467,9 +646,6 @@ body {
 /*slider end*/
 
 /*price start*/
-#price {
-    padding: 150px 0;
-}
 
 .price h1 {
     color: #22343D;
@@ -791,6 +967,12 @@ body {
     color: #22343D;
     font-size: 16px;
     font-weight: 400;
+}
+
+.dark .footer-text h3,
+.dark .footer-text a,
+.dark .footer-input h2 {
+    color: white;
 }
 
 /*footer end*/
